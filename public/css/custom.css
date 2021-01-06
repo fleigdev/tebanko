@@ -20,3 +20,11 @@
     background-color: #2f55d4 !important;
     transform: rotate(45deg);
 }
+.navright {
+    float: right;
+}
+
+.aligntoleft {
+    text-align: left;
+}
+
