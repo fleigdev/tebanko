@@ -16,8 +16,7 @@ export default {
   <div>
     <!-- Hero Start -->
     <section
-      class="bg-home rtl-personal-hero bg-light d-flex align-items-center"
-      style="background:url('../assets/img/tebankocover.jpg') center center"
+      class="bg-home rtl-personal-hero bg-light d-flex align-items-center backgroundhero"
       id="home"
     >
       <div class="container">

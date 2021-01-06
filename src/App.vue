@@ -16,7 +16,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
 import Footer from './components/Footer.vue';
 import Navbar from './components/Navbar.vue';
 import LandingPage from './views/LandingPage.vue';
@@ -24,7 +23,6 @@ import LandingPage from './views/LandingPage.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Footer,
     Navbar,
     LandingPage,
@@ -39,6 +37,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
