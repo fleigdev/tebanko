@@ -28,6 +28,10 @@
     text-align: left;
 }
 
+.aligntoright {
+    text-align: right;
+}
+
 .backgroundhero {
     background-image: url('../img/bg2.jpg');
     height: 100vh;
@@ -35,5 +39,28 @@
     position: relative;
     background-size: cover;
     background-position: right 35% bottom 90%;
+}
+
+.thinkingsection {
+    background-image: url('../img/thinking.png');
+    height: 50vh;
+    background-size: cover;
+    position: relative;
+    background-position: right 35% bottom 20%;
+    
+    
+    
+}
+
+.cardheight {
+    height: 250px;
+}
+
+.footerlogo {
+    filter: brightness(0) invert(1);
+}
+
+.smalllogos {
+    height: 35px;
 }
 

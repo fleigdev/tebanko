@@ -26,13 +26,12 @@ export default {
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+          <div class="col-md-4 col-12">
             <a href="#" class="logo-footer">
               <img src="images/logo-light.png" height="24" alt="" />
             </a>
-            <p class="mt-4">
-              Start working with Landrick that can provide everything you need
-              to generate awareness, drive traffic, connect.
+            <p class="mt-4 footerlogo">
+              <img src="../assets/img/logo-tebanko.png" height="70" alt="" />
             </p>
             <ul class="list-unstyled social-icon social mb-0 mt-4">
               <li class="list-inline-item">
@@ -62,104 +61,38 @@ export default {
           </div>
           <!--end col-->
 
-          <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-            <h4 class="text-light footer-head">Company</h4>
-            <ul class="list-unstyled footer-list mt-4">
-              <li>
-                <router-link to="/page-aboutus" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> About
-                  us</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-services" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Services</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-team" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> Team</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-pricing" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Pricing</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-work-modern" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Project</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-jobs" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Careers</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-blog-grid" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> Blog</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/auth-cover-login" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> Login</router-link
-                >
-              </li>
-            </ul>
+          <div class="col-md-4 col-12">
+            <h4 class="text-light footer-head">Ubicación y Contacto</h4>
+
+            <p class="mt-4">
+              <img class="smalllogos" src="../assets/img/iconos/location.svg" />
+              Radial 27 entre 3er y 4to anillo. Entre calle Valdivia y calle N4
+            </p>
+
+            <p class="mt-4">
+              <img class="smalllogos" src="../assets/img/iconos/call.svg" />
+              +(00591) 767 - 85558
+            </p>
+
+            <p class="mt-4">
+              <img class="smalllogos" src="../assets/img/iconos/mail.svg" />
+              info@tebanko.com
+            </p>
           </div>
           <!--end col-->
 
-          <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-            <h4 class="text-light footer-head">Usefull Links</h4>
-            <ul class="list-unstyled footer-list mt-4">
-              <li>
-                <router-link to="/page-terms" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> Terms of
-                  Services</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/page-privacy" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i> Privacy
-                  Policy</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/documentation" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Documentation</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/changelog" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Changelog</router-link
-                >
-              </li>
-              <li>
-                <router-link to="/components" class="text-foot"
-                  ><i class="mdi mdi-chevron-right mr-1"></i>
-                  Components</router-link
-                >
-              </li>
-            </ul>
-          </div>
-          <!--end col-->
-
-          <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-            <h4 class="text-light footer-head">Newsletter</h4>
-            <p class="mt-4">Sign up and receive the latest tips via email.</p>
+          <div class="col-md-4 col-12">
+            <h4 class="text-light footer-head">Información</h4>
+            <p class="mt-4">
+              Déjanos tu correo electrónico para enterarte de las ofertas y
+              productos que te ofrece TeBanko.
+            </p>
             <form>
               <div class="row">
                 <div class="col-lg-12">
                   <div class="foot-subscribe form-group position-relative">
                     <label
-                      >Write your email
+                      >Ingresa tu correo electrónico
                       <span class="text-danger">*</span></label
                     >
                     <mail-icon class="fea icon-sm icons"></mail-icon>
@@ -168,7 +101,7 @@ export default {
                       name="email"
                       id="emailsubscribe"
                       class="form-control pl-5 rounded"
-                      placeholder="Your email : "
+                      placeholder="Correo: "
                       required
                     />
                   </div>
@@ -179,7 +112,7 @@ export default {
                     id="submitsubscribe"
                     name="send"
                     class="btn btn-soft-primary btn-block"
-                    value="Subscribe"
+                    value="Ingresar"
                   />
                 </div>
               </div>
