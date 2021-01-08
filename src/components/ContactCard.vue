@@ -14,7 +14,7 @@
           <div class="container">
             <div class="row ">
               <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body paddingcard">
                   <form>
                     <div class="row">
                       <div class="col-md-6">
@@ -97,7 +97,7 @@
               </div>
               <!--end col-->
 
-              <div class="col-md-6 mt-4 ">
+              <div class="col-md-6 mt-4 mt-4 pt-4">
                 <div class="row">
                   <div class="col-lg-12">
                     <h5>
@@ -162,5 +162,18 @@ input[type='number'] {
 
 textarea {
   height: 100px;
+}
+
+.bggradient {
+  background: linear-gradient(
+    90deg,
+    rgba(44, 62, 80, 1) 0%,
+    rgba(1, 66, 104, 1) 34%
+  );
+}
+
+.paddingcard {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 </style>

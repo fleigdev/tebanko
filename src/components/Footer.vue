@@ -26,7 +26,7 @@ export default {
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12 text-center">
             <a href="#" class="logo-footer">
               <img src="images/logo-light.png" height="24" alt="" />
             </a>

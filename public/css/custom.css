@@ -52,8 +52,12 @@
     
 }
 
+.img350 {
+    height: 375px;
+}
+
 .cardheight {
-    height: 250px;
+    height: 350px;
 }
 
 .footerlogo {
@@ -63,4 +67,11 @@
 .smalllogos {
     height: 35px;
 }
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
 

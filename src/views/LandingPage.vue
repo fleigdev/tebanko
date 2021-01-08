@@ -83,7 +83,7 @@ export default {
         <!--end row-->
 
         <div class="row">
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12 text-center">
             <div class="features mt-5">
               <div class="image position-relative d-inline-block">
                 <img
@@ -93,7 +93,7 @@ export default {
                 />
               </div>
 
-              <div class="content mt-4">
+              <div class="content mt-4 ">
                 <h4 class="title-2">100% Online</h4>
                 <p class="text-muted mb-0">
                   Solicita tu crédito de manera remota, cuando quieras, de donde
@@ -104,7 +104,7 @@ export default {
           </div>
           <!--end col-->
 
-          <div class="col-md-4 col-12 mt-5">
+          <div class="col-md-4 col-12 mt-5 text-center">
             <div class="features">
               <div class="image position-relative d-inline-block">
                 <img
@@ -125,7 +125,7 @@ export default {
           </div>
           <!--end col-->
 
-          <div class="col-md-4 col-12 mt-5">
+          <div class="col-md-4 col-12 mt-5 text-center">
             <div class="features">
               <div class="image position-relative d-inline-block">
                 <img
@@ -154,9 +154,70 @@ export default {
     <!--end section-->
     <!-- End feature -->
 
+    <section class="section bg-light pt-1">
+      <!--end container-->
+
+      <!--end container-->
+
+      <div class="container mt-100 mt-60">
+        <div class="row  ">
+          <div class="col-lg-5 col-md-6 order-1 order-md-2">
+            <img
+              src="../assets/img/compu1.jpg"
+              class="img-fluid rounded shadow-md img350 centerimg"
+              alt=""
+            />
+          </div>
+          <!--end col-->
+
+          <div
+            class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0 "
+          >
+            <div class="section-title ml-lg-4">
+              <h4 class="title mb-4">
+                Complete el formulario y <br />
+                obtenga una solución instantánea
+              </h4>
+
+              <ul class="list-unstyled text-muted">
+                <li class="mb-0">
+                  <span class="text-primary h5 mr-2"
+                    ><i class="uim uim-check-circle"></i></span
+                  >Tener ingresos regulares
+                </li>
+                <li class="mb-0">
+                  <span class="text-primary h5 mr-2"
+                    ><i class="uim uim-check-circle"></i></span
+                  >Firma digital
+                </li>
+                <li class="mb-0">
+                  <span class="text-primary h5 mr-2"
+                    ><i class="uim uim-check-circle"></i></span
+                  >Cuenta bancaria
+                </li>
+                <li class="mb-0">
+                  <span class="text-primary h5 mr-2"
+                    ><i class="uim uim-check-circle"></i></span
+                  >Ser mayor de edad
+                </li>
+              </ul>
+              <a class="btn btn-primary mt-2 mr-2 mouse-down"
+                ><i class="mdi mdi-camera"></i> Solicítalo Aquí!</a
+              >
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <!--end container-->
+    </section>
+
     <section class="section">
       <!-- Features Start -->
-      <div class="container mt-100 mt-60">
+      <div class="container mt-100 mt-30">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <div class="section-title mb-4 pb-2">
@@ -168,7 +229,7 @@ export default {
         <!--end row-->
 
         <div class="row">
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12 text-center">
             <div class="card bg-light rounded shadow border-0 cardheight">
               <div class="card-body py-5">
                 <img
@@ -178,7 +239,7 @@ export default {
                 />
                 <div class="mt-4">
                   <h5 class="card-title">
-                    <a class="text-primary"> Completa tu formulario</a>
+                    <h4 class="title-2">Completa tu formulario</h4>
                   </h5>
                   <p class="text-muted mt-3 mb-0">
                     Haz tu solicitud en tan sólo 8 minutos y 100% Online.
@@ -189,7 +250,7 @@ export default {
           </div>
           <!--end col-->
 
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12 text-center">
             <div class="card bg-light rounded shadow border-0 cardheight">
               <div class="card-body py-5">
                 <img
@@ -199,7 +260,7 @@ export default {
                 />
                 <div class="mt-4">
                   <h5 class="card-title">
-                    <a class="text-primary">Sin papeleo</a>
+                    <h4 class="title-2">Sin papeleo</h4>
                   </h5>
                   <p class="text-muted mt-3 mb-0">
                     Verifica tu documentación en el proceso de registro para
@@ -211,7 +272,7 @@ export default {
           </div>
           <!--end col-->
 
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12 text-center">
             <div class="card bg-light rounded shadow border-0 cardheight">
               <div class="card-body py-5">
                 <img
@@ -221,7 +282,7 @@ export default {
                 />
                 <div class="mt-4">
                   <h5 class="card-title">
-                    <a class="text-primary">Recibe dinero en tu cuenta</a>
+                    <h4 class="title-2">Recibe dinero en tu cuenta</h4>
                   </h5>
                   <p class="text-muted mt-3 mb-0">
                     Si tu solicitud de préstamo es aprobada transferiremos el
