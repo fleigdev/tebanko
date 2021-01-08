@@ -71,7 +71,7 @@ export default {
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <div class="section-title mb-4 pb-2">
-              <h4 class="title mb-4">¿Por qué elegir TeBanko?</h4>
+              <h2 class="title mb-4 titlesection ">¿Por qué elegir TeBanko?</h2>
               <p class="text-muted para-desc mx-auto mb-0">
                 Es una entidad que ofrece préstamos 100% online, sin papeleo, ni
                 complicaciones
@@ -174,10 +174,10 @@ export default {
             class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0 "
           >
             <div class="section-title ml-lg-4">
-              <h4 class="title mb-4">
+              <h3 class="title mb-4">
                 Complete el formulario y <br />
                 obtenga una solución instantánea
-              </h4>
+              </h3>
 
               <ul class="list-unstyled text-muted">
                 <li class="mb-0">
@@ -215,13 +215,13 @@ export default {
       <!--end container-->
     </section>
 
-    <section class="section">
+    <section class="section lesspaddingsection">
       <!-- Features Start -->
       <div class="container mt-100 mt-30">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <div class="section-title mb-4 pb-2">
-              <h4 class="title mb-4">¿Cómo Funciona TeBanko?</h4>
+              <h2 class="title mb-4 titlesection ">¿Cómo Funciona TeBanko?</h2>
             </div>
           </div>
           <!--end col-->
@@ -304,6 +304,38 @@ export default {
       <ContactCard />
     </section>
 
+    <section>
+      <!-- Features Start -->
+      <div class="container mt-100 mt-1">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="mb-4 pb-2">
+              <h1 class="title mb-4 ultimo">
+                Alcanza tus sueños <br />
+                con TeBanko
+              </h1>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+      </div>
+    </section>
+
+    <!-- Shape Start -->
+    <div class="position-relative">
+      <div class="shape overflow-hidden text-footer">
+        <svg
+          viewBox="0 0 2880 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </div>
     <!--end section-->
     <!-- Back to top -->
     <a

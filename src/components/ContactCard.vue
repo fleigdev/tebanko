@@ -2,7 +2,9 @@
   <div>
     <div class="col-12 text-center">
       <div class="section-title mb-4 pb-2">
-        <h4 class="title mb-4">¿Tienes preguntas?</h4>
+        <h2 class="title mb-4 titlesection ">
+          ¿Tienes preguntas?
+        </h2>
       </div>
     </div>
     <!-- Payment and Price Start -->

@@ -75,3 +75,16 @@
     
   }
 
+  .ultimo {
+    font-size: 3.5rem;
+    padding-bottom: 40px;
+  }
+
+  .lesspaddingsection {
+    padding: 20px 0;
+  }
+
+  .titlesection {
+    letter-spacing: 0.5px;
+    font-size: 35px !important;
+}
