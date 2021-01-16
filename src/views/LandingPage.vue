@@ -4,12 +4,17 @@
  */
 import { ArrowUpIcon } from 'vue-feather-icons';
 import ContactCard from '../components/ContactCard.vue';
+import VueSlider from 'vue-slider-component';
+import 'vue-slider-component/theme/antd.css';
 
 export default {
   data() {
-    return {};
+    return {
+      value: 0,
+      totalValue: 20,
+    };
   },
-  components: { ArrowUpIcon, ContactCard },
+  components: { ArrowUpIcon, ContactCard, VueSlider },
 };
 </script>
 
@@ -54,17 +59,61 @@ export default {
 
     <!-- Testi Start -->
     <section class="section thinkingsection">
-      <div class="container">
-        <div class="row justify-content-center">
-          <!--end col-->
+      <div class="row justify-content-center ">
+        <div class="col-md-4 col-12 mt-4 "></div>
+
+        <div class="col-md-4 col-12 mt-4 " style="top: -250px;">
+          <div
+            class="card pricing-rates business-rate shadow bg-light rounded text-center border-0"
+          >
+            <div class="card-body py-5">
+              <h2 class="title text-uppercase mb-4">
+                ¿Cuánto dinero necesitas?
+              </h2>
+              <div class="d-flex justify-content-center mb-4">
+                <span class="h4 mb-0 mt-2">$</span>
+                <span class="price h1 mb-0">{{ value }}</span>
+              </div>
+              <vue-slider v-model="value" min="500" max="3000" />
+
+              <ul class="list-unstyled mb-0 pl-0">
+                <li class="h5 text-muted mb-0">
+                  <span class="text-primary h5 mr-2"></span>Cuota Mensual
+                </li>
+                <li class="h6 text-muted mb-0">
+                  <span class="text-primary h5 mr-2"></span>
+                  $ {{ value / 2 }}
+                </li>
+              </ul>
+              <a href="javascript:void(0)" class="btn btn-primary mt-4"
+                >¡Solicítalo Aquí!</a
+              >
+              <div class="h6 text-muted pt-4 ">
+                <span class="text-primary h6 mr-2"></span>
+                <div class="linea">
+                  <a href="javascript:void(0)">Ver términos y condiciones</a>
+                </div>
+                <div class="smalltext">
+                  *Ejemplo de cuota calculada para una línea de crédito de 5.000
+                  $ a pagar en 36 meses y con una retirada del importe
+                  seleccionado. ¡OJO! Te haremos una oferta personalizada, por
+                  lo que tu importe máximo, TAE, plazo de amortización, y cuota
+                  pueden ser distintos al del ejemplo.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!--end row-->
       </div>
+      <!--end row-->
+
       <!--end container-->
     </section>
     <!--end section-->
     <!-- Thinking End -->
 
+    <!--end section-->
+    <!-- Counter End -->
     <!-- Feature Start -->
     <section class="section">
       <div class="container">

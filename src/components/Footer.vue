@@ -131,7 +131,7 @@ export default {
           <div class="col-sm-6">
             <div class="text-sm-left">
               <p class="mb-0">
-                © 2020 TeBanko. Website designed by @Mfleig
+                © 2021 TeBanko. Website designed by @Mfleig
               </p>
             </div>
           </div>

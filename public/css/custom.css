@@ -88,3 +88,17 @@
     letter-spacing: 0.5px;
     font-size: 35px !important;
 }
+
+.linea {
+    text-decoration: underline;
+}
+
+.smalltext {
+    font-size: 10px;
+}
+
+.particles canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
